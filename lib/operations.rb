@@ -13,14 +13,6 @@ def not_safe?(speed)
 end
 	
 def not_safe(speed)
-  speed 
+  speed == unsafe ? true : false
   
-  
-if age < 2
-    "baby"
-else
-    "not a baby"
-end 
-
-age < 2 ? "baby" : "not a baby"
 
